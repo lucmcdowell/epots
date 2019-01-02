@@ -4,7 +4,7 @@
   "description": "This feature is about creating a specific meetup record",
   "main": "index.js",
   "scripts": {
-    "test": "--reporter=text-summary mocha --exit"
+    "test": "./node_modules/.bin/mocha --reporter=text-summary --exit"
   },
   "author": "James Azim Ouma",
   "license": "ISC",
