@@ -1,10 +1,10 @@
 {
-  "name": "ft-create-meetup-record",
+  "name": "epots",
   "version": "1.0.0",
   "description": "This feature is about creating a specific meetup record",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --reporter spec --exit"
+    "test": "nyc mocha --reporter spec --exit"
   },
   "author": "James Azim Ouma",
   "license": "ISC",
