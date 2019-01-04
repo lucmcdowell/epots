@@ -8,6 +8,5 @@ script:
     - npm test
 after_success:
     - nyc report --reporter=text-lcov
-    - codecov
     - coveralls
     
