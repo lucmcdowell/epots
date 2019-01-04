@@ -1,4 +1,4 @@
-const meetupDataSet = require('../db/meetupdataset');
+const meetupDataSet = require('../db/meetup');
 const questiondetails = require('../db/questiondataset');
 const rsvp = require('../db/rsvpdataset');
 
